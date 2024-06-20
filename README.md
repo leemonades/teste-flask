@@ -32,3 +32,12 @@ Ele utiliza Flask como framework web e Pandas para manipulação de dados.
     python app.py
     ```
     Acesse `http://localhost:5000` para ver a aplicação em execução.
+
+6. **Rode o teste**
+    ```bash
+    pytest
+    ```
+    *Caso tenha algum erro de importação do modulo utils, utilize o comando abaixo, substituindo o caminho completo até o projeto(remova aspas):
+    ```bash
+    export PYTHONPATH="/caminho/completo/do/seu/projeto"/utils:$PYTHONPATH
+    ```

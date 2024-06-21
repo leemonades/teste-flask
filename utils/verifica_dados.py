@@ -4,6 +4,7 @@ import pandas as pd
 def verifica_qtd_dados(**kwargs):
     """
     Verifica o tamanho máximo entre todas as listas fornecidas para garantir que a aplicação não quebre
+    por falta de elemento
 
     Args:
         **kwargs: Nome da coluna e seu array de dados

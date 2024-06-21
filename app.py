@@ -11,7 +11,7 @@ notas = [15.00, 39.58, 62.92, 41.46, 48.33, 63.13, 70.00]
 
 ''' 
 Utiliza a função criada para garantir o tamanho de elementos nos dados fornecidos
-pois pode vir de outras fontes mesmo que neste caso sejam arrays simples e íntegros.
+para garantir que a aplicação não quebre por falta de elementos, mesmo que neste caso sejam arrays simples e íntegros.
 '''
 df = verifica_qtd_dados(Alunos=alunos, Notas=notas) # passa o nome da coluna e o array de dados correspondente
 
